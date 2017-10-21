@@ -1,0 +1,77 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    
+}
+
+section{
+    
+}
+
+#menu{
+    background-color: aqua;
+}
+
+.nav_wrap{
+    display: table;
+    padding: 20px 0 20px 0;
+    margin: 0 auto 0 auto;
+    
+}
+
+.item{
+    display: inline-block;
+}
+
+.item_text:hover{
+    background-color: azure;
+    cursor: pointer;
+}
+
+.item_text{
+    padding: 20px;
+    
+}
+
+#intro{
+    width: 100%;
+    background-color: lightgray;
+    position: relative;
+}
+
+#icon{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.main{
+    background-color: #ffffff;
+    width: 100%;
+    min-height: 700px;
+}
+
+.intro_block{
+    width: 50%;
+    height: 300px;
+    background-color: darkgray;
+    float: left;
+}
+
+.intro_block_alt{
+    background-color: aqua;
+}
+
+.clear{
+    clear: both;
+}
