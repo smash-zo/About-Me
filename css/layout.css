@@ -53,6 +53,10 @@ section{
     right:0;
     margin: auto;
     border-radius: 50%;
+     background-image:url(/images/logo-head.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 .main{
@@ -74,4 +78,31 @@ section{
 
 .clear{
     clear: both;
+}
+
+#block1{
+    background-image:url('/images/museum.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#block2{
+    background-image:url('/images/sonic.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#block3{
+    background-image:url('/images/computer.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#block4{
+    background-image:url('/images/son.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
