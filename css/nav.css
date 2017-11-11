@@ -1,0 +1,28 @@
+/* Nav Section */
+
+#menu{
+    background-color: #BC1717;
+}
+
+.nav_wrap{
+    display: table;
+    padding: 20px 0 20px 0;
+    margin: 0 auto 0 auto;
+    
+}
+
+.item{
+    display: inline-block;
+}
+
+.item_text:hover{
+    background-color: azure;
+    cursor: pointer;
+    color: #000;
+}
+
+.item_text{
+    padding: 20px;
+    color: #fff;
+    font-weight: 200;
+}

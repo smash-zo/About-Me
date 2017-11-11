@@ -1,3 +1,5 @@
+@import url('nav.css');
+
 body{
     padding: 0;
     margin: 0;
@@ -129,41 +131,12 @@ section{
 }
 
 
-/* Nav Section */
-
-#menu{
-    background-color: #BC1717;
-}
-
-.nav_wrap{
-    display: table;
-    padding: 20px 0 20px 0;
-    margin: 0 auto 0 auto;
-    
-}
-
-.item{
-    display: inline-block;
-}
-
-.item_text:hover{
-    background-color: azure;
-    cursor: pointer;
-    color: #000;
-}
-
-.item_text{
-    padding: 20px;
-    color: #fff;
-    font-weight: 200;
-}
-
-
 /*Intro Section*/
 #intro{
     background-color: lightgray;
 }
-
+    
+    
 #block1{
     background-image:url('/images/museum.JPG');
     background-repeat: no-repeat;
@@ -267,4 +240,12 @@ section{
     padding-right: 40px;
     padding-bottom: 20px;
     margin: 40px 10px 10px 10px; /* trbl */
+}
+
+#fact p{
+    color: #fff;
+    font-size: 22px;
+    padding: 30px;
+    font-weight: 100;
+    text-align: center;
 }
