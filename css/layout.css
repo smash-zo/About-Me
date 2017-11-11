@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
 }
 
 nav{
@@ -9,59 +10,6 @@ nav{
 
 h3{
     color: black;
-}
-
-section{
-    
-}
-
-#menu{
-    background-color: aqua;
-}
-
-.nav_wrap{
-    display: table;
-    padding: 20px 0 20px 0;
-    margin: 0 auto 0 auto;
-    
-}
-
-.item{
-    display: inline-block;
-}
-
-.item_text:hover{
-    background-color: azure;
-    cursor: pointer;
-}
-
-.item_text{
-    padding: 20px;
-    
-}
-
-#intro{
-    width: 100%;
-    background-color: lightgray;
-    position: relative;
-}
-
-#icon{
-    width: 150px;
-    height: 150px;
-    background-color: white;
-    position: absolute;
-    top: 0;
-    left:0;
-    bottom:0; 
-    right:0;
-    margin: auto;
-    border-radius: 50%;
-     background-image:url(/images/logo-head.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    z-index: 9;
 }
 
 .main{
@@ -80,14 +28,14 @@ section{
 }
 
 .blue-overlay{
-    background-color: blue;
+    background-color: #041424;
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     z-index: 3;
-    opacity: .5;
+    opacity: .8;
 }
 
 .blue-gradient{
@@ -108,6 +56,112 @@ section{
 
 .clear{
     clear: both;
+}
+
+section{
+    width: 100%;
+    position: relative;
+    height: 600px;
+}
+
+.text_layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    z-index: 4;
+    width: 400px;
+    height: 150px;
+}
+
+.split-right-v{
+    border-right: solid 1px #fff;
+}
+
+.split-left-v{
+    border-left: solid 1px #fff;
+}
+
+.split-top{
+    border-top: solid 1px #fff;
+}
+
+.split-bottom{
+    border-bottom: solid 1px #fff;
+}
+
+.w-33{
+    position: relative;
+    width: 33.33%;
+}
+
+.w-66{
+    position: relative;
+    width: 66.5%;
+}
+
+.w-25{
+    position: relative;
+    width: 25%;
+}
+
+.w-50{
+    position: relative;
+    width: 50%;
+}
+
+.w-75{
+    position: relative;
+    width: 75%;
+}
+
+.w-100{
+    position: relative;
+    width: 100%;
+}
+
+.col{
+    margin-top: 2%;
+    height: 90%;
+    float: left;
+}
+
+
+/* Nav Section */
+
+#menu{
+    background-color: #BC1717;
+}
+
+.nav_wrap{
+    display: table;
+    padding: 20px 0 20px 0;
+    margin: 0 auto 0 auto;
+    
+}
+
+.item{
+    display: inline-block;
+}
+
+.item_text:hover{
+    background-color: azure;
+    cursor: pointer;
+    color: #000;
+}
+
+.item_text{
+    padding: 20px;
+    color: #fff;
+    font-weight: 200;
+}
+
+
+/*Intro Section*/
+#intro{
+    background-color: lightgray;
 }
 
 #block1{
@@ -137,20 +191,80 @@ section{
     background-position: center center;
 }
 
-.text_layer{
+.happy_icon{
+    background-image: url('../images/happy.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 50px;
+    width: 100px;
+    padding-bottom: 20px;
+    margin: auto auto 10px auto;
+}
+
+#intro .text_layer h3{
+    font-size: 22px;
+    font-weight: 200;
+    border-bottom: 1px solid white;
+    width: 60%;
+    margin-bottom: 10px;
+    margin: 60px auto auto auto;
+    color: white;
+    text-align: center;
+}
+
+#intro .text_layer h3.alt{
+    font-size: 22px;
+    font-weight: 200;
+    width: 60%;
+    border-top: 1px solid white;
+    border-bottom: 0;
+    padding-top: 10px;
+    margin: auto auto auto auto;
+}
+
+#icon{
+    width: 150px;
+    height: 150px;
+    background-color: white;
     position: absolute;
     top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+    left:0;
+    bottom:0; 
+    right:0;
     margin: auto;
-    z-index: 4;
+    border-radius: 50%;
+     background-image:url(/images/logo-head.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index: 9;
+}
+
+
+/*Fact Section*/
+
+#fact{
+    background-color: #BC1717;
+}
+
+#fact .text_layer{
     width: 100%;
 }
 
-.text_layer h3{
-    color: white;
+#fact h3{
+    color: #fff;
+    font-weight: 300;
     text-align: center;
-    width: 100%;
-    margin-top: 20%;
+    height: 200px;
+}
+
+#fact h1{
+    color: #fff;
+    font-size: 72px;
+    font-weight: 700;
+    text-align: right;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    margin: 40px 10px 10px 10px; /* trbl */
 }
