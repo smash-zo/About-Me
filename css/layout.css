@@ -12,6 +12,8 @@ nav{
 
 h3{
     color: black;
+    position: relative;
+    z-index: 4;
 }
 
 .main{
@@ -36,7 +38,7 @@ h3{
     left: 0;
     bottom: 0;
     right: 0;
-    z-index: 3;
+    z-index: 1;
     opacity: .8;
 }
 
@@ -80,18 +82,27 @@ section{
 
 .split-right-v{
     border-right: solid 1px #fff;
+    position: relative;
+    z-index: 2;
 }
 
 .split-left-v{
     border-left: solid 1px #fff;
+    position: relative;
+    z-index: 2;
 }
 
 .split-top{
     border-top: solid 1px #fff;
+    position: relative;
+    z-index: 2;
 }
 
 .split-bottom{
     border-bottom: solid 1px #fff;
+    position: relative;
+    z-index: 2;
+    
 }
 
 .w-33{
@@ -248,4 +259,45 @@ section{
     padding: 30px;
     font-weight: 100;
     text-align: center;
+}
+
+/*About Section*/
+
+#about{
+    background-image:url('/images/working.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#about h1, #about h2, #about h3, #about h4, #about p{
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+#about h4, #about p{
+    text-align: right; 
+    padding: 0 50px 0 50px;
+}
+
+#about h4{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+/*Contact Section*/
+
+#contact{
+    background-color: #1695ac;
+}
+
+.content {
+    padding: 50px;
+}
+
+.text-input {
+    margin: 2px;
+    padding: 5px;
+    width: 300px;
 }
