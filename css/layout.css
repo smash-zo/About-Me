@@ -281,7 +281,7 @@ section{
     padding: 0 50px 0 50px;
 }
 
-#about h4{
+#about h4{ 
     font-size: 24px;
     padding-bottom: 20px;
 }
@@ -300,4 +300,20 @@ section{
     margin: 2px;
     padding: 5px;
     width: 300px;
+}
+
+/**
+ * 6.0 Screens
+ * ----------------------------------------------------------------------------
+ */
+@media only screen and (max-width: 40em) {
+	
+}
+/*medium*/
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+
+}
+/*large*/
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+	
 }
